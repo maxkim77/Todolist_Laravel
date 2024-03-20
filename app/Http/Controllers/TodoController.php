@@ -7,21 +7,29 @@ use App\Models\Todo;
 
 class TodoController extends Controller
 {
+    public function __construct()
+{
+    $this->middleware('auth');
+}
+
     public function index()
     {
-        $todos = Todo::all(); // 모든 할 일 조회
+        // $todos = Todo::all(); 
+        // 모든 할 일 조회
+        $todos = auth()->user()->todos; // 로그인한 사용자의 Todo만 조회
         return view('todos', compact('todos')); // `todos` 뷰로 데이터 전달
     }
 
     public function store(Request $request)
-    {
-        Todo::create([
-            'text' => $request->text, // 사용자 입력에 기반한 새 할 일 생성
-            'completed' => false, // 기본값으로 'false' 설정
-        ]);
+{
+    $request->user()->todos()->create([
+        'text' => $request->text,
+        'completed' => false,
+    ]);
 
-        return redirect('/todos'); // 생성 후 목록 페이지로 리다이렉트
-    }
+    return redirect('/todos');
+}
+
 
     public function edit($id)
     {
