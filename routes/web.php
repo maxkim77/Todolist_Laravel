@@ -6,7 +6,8 @@ use App\Http\Controllers\TodoController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -19,7 +20,7 @@ Route::middleware('auth')->group(function () {
 });
 
 // Laravel 8 이상의 라우트 정의 방식
-Route::get('/todos', [TodoController::class, 'index']);
+Route::get('/todos', [TodoController::class, 'index'])->name('todos.index');
 Route::post('/todos', [TodoController::class, 'store']);
 Route::put('/todos/{todo}', [TodoController::class, 'update']);
 Route::delete('/todos/{todo}', [TodoController::class, 'destroy']);
