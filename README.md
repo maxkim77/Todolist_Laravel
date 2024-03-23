@@ -14,10 +14,10 @@
 
 ## 2. 개발 환경 및 배포
 ### 2.1 개발 환경
-- 웹 프레임워크: Laravel
-- PHP 버전: 7.x
+- 웹 프레임워크: Laravel 11(Breeze Blade Template 활용)
+- PHP 버전: 8
 - 데이터베이스: MySQL
-- 프론트엔드: HTML, CSS, JavaScript (Vue.js 사용 가능)
+- 프론트엔드: HTML, CSS, JavaScript
 
 ### 2.2 배포
 - 로컬 환경 : docker
