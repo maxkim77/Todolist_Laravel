@@ -57,9 +57,11 @@
 개발 일정은 산출물과 함께 WBS로 작성하여 관리
 
 ## 5. 와이어프레임 / UI / BM
-UI 및 화면 설계는 Figma 또는 Kakao Oven을 활용하여 작성
-각 페이지별 상세 설명과 함께 와이어프레임 제작
-<img width="1388" alt="스크린샷 2024-03-23 오후 4 29 25" src="https://github.com/maxkim77/todolist/assets/141907655/6560a4be-dcb1-413c-b15f-6ca788f4c24f">
+- UI 및 화면 설계는 Figma 또는 Kakao Oven을 활용하여 작성
+
+![02_Copy of Untitled](https://github.com/maxkim77/todolist/assets/141907655/40ce8a92-2d75-4830-85c4-2092082da7ac)
+
+![01_Untitled](https://github.com/maxkim77/todolist/assets/141907655/ac1d9b82-df22-43a1-a77d-1527885ef9f8)
 
 ## 6. 데이터베이스 모델링(ERD)
 <img width="673" alt="스크린샷 2024-03-23 오후 9 51 49" src="https://github.com/maxkim77/todolist/assets/141907655/40043b7e-cfd7-49e0-b1e5-23d6c4141bc9">
@@ -68,6 +70,9 @@ UI 및 화면 설계는 Figma 또는 Kakao Oven을 활용하여 작성
 아키텍처 설계는 ChatGPT 또는 PPT를 활용하여 작성
 
 ## 8. 메인 기능
+메인 페이지
+<img width="1388" alt="스크린샷 2024-03-23 오후 4 29 25" src="https://github.com/maxkim77/todolist/assets/141907655/6560a4be-dcb1-413c-b15f-6ca788f4c24f">
+
 회원가입 기능
 <img width="1343" alt="스크린샷 2024-03-23 오후 4 29 39" src="https://github.com/maxkim77/todolist/assets/141907655/172002aa-62ea-475b-86a2-a37d51ed5afc">
 <img width="1381" alt="스크린샷 2024-03-23 오후 4 39 21" src="https://github.com/maxkim77/todolist/assets/141907655/1fe98954-6875-4b7a-b936-6cee0241c9f3">
