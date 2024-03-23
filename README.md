@@ -54,7 +54,8 @@
 ┗ 📦 composer.lock
 
 ```
-개발 일정은 산출물과 함께 WBS로 작성하여 관리
+- 개발 일정
+<img width="1028" alt="image" src="https://github.com/maxkim77/todolist/assets/141907655/ac7338f8-dc3a-4f2e-9949-1ea8fdfe4d90">
 
 ## 5. 와이어프레임 / UI / BM
 - UI 및 화면 설계는 Figma 또는 Kakao Oven을 활용하여 작성
