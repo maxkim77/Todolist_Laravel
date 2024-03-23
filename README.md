@@ -54,7 +54,7 @@ UI 및 화면 설계는 Figma 또는 Kakao Oven을 활용하여 작성
 각 페이지별 상세 설명과 함께 와이어프레임 제작
 
 ## 6. 데이터베이스 모델링(ERD)
- ERD 작성은 ERDCloud 또는 dbdiagram.io 등의 도구를 활용하여 제작
+<img width="673" alt="스크린샷 2024-03-23 오후 9 51 49" src="https://github.com/maxkim77/todolist/assets/141907655/40043b7e-cfd7-49e0-b1e5-23d6c4141bc9">
 
 ## 7. Architecture
 아키텍처 설계는 ChatGPT 또는 PPT를 활용하여 작성
