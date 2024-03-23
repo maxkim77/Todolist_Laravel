@@ -24,7 +24,7 @@
             <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md">추가</button>
         </form>
         <ul>
-            @foreach ($todos as $todo)
+            @foreach ($todos as $todo) 
                 <li class="flex flex-col md:flex-row md:items-center justify-between bg-white border border-gray-300 rounded-md p-4 mb-2">
                     <div class="w-full md:w-3/4">
                         <span>{{ $todo->text }}</span>
